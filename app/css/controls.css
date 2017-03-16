@@ -1,0 +1,118 @@
+textarea.contents {
+    border-radius: 5px 5px 5px 5px;
+    padding-left: 5px;
+    padding-top: 5px;
+    line-height: 20px;
+    border: 1px solid rgb(170, 170, 170);
+    font:normal 16px/20px Arial, Helvetica, sans-serif;
+}
+
+.pagelabel {
+    padding-left:20px;
+    padding-top:30px;
+    font-size: 28px;
+    text-shadow: 0px,1px,0px, rgb(0,0,0);
+}
+
+.genaral-row-div {
+    width:1120px;
+    margin-left:20px;
+    margin-top:15px;
+    float:left;
+}
+.general-title {
+	width:120px;
+	float:left;
+	font:bold 16px/18px Arial, Helvetica, sans-serif;
+	margin-top: 5px;
+	float:left;
+}
+
+.general-control {
+	width:850px;
+	float:left;
+	margin-top: 5px;
+	float:left;
+}
+
+.general-label {
+    width: 120px;
+    height:25px;
+    float:left;
+    font:bold 16px/18px Arial, Helvetica, sans-serif;
+    color:#000000;
+    margin-top:8px;
+}
+
+
+/* Paper CSS */
+.paper {
+	width: 900px;
+	border-radius: 3px;
+	background: none repeat scroll 0% 0% rgb(255, 255, 255);
+	border: 1px solid rgb(170, 170, 170);
+	box-shadow: 1px 2px 5px rgb(68, 68, 68);
+	margin: auto;
+}
+
+.paper-title {
+	width:300px;
+	text-align:center;
+	margin: auto;
+	font:bold 28px/10px Arial, Helvetica, sans-serif;
+	margin-top:100px;
+}
+
+.paper-details-title {
+	width:300px;
+	text-align:center;
+	margin: auto;
+	font:bold 20px/5px Arial, Helvetica, sans-serif;
+	margin-top:50px;
+}
+
+.paper-table {
+	width:780px;
+	margin:auto;
+}
+
+.paper-td {
+	font-size:16px;
+}
+
+.paper-row {
+	width: 780px;
+	margin:auto;
+}
+
+.paper-subtitle {
+	width:150px;
+	font:bold 16px/5px Arial, Helvetica, sans-serif;
+	float: left;
+	margin-top: 18px;
+}
+
+.paper-subcontrol {
+	width:550px;
+	float: left;
+}
+
+.paper-left {
+	width: 250px;
+	border-radius: 3px;
+	background: none repeat scroll 0% 0% rgb(255, 255, 255);
+	border: 1px solid rgb(170, 170, 170);
+	box-shadow: 1px 2px 5px rgb(68, 68, 68);
+	margin-left: 10px;
+	float:left;
+}
+
+.paper-right {
+	width: 900px;
+	border-radius: 3px;
+	background: none repeat scroll 0% 0% rgb(255, 255, 255);
+	border: 1px solid rgb(170, 170, 170);
+	box-shadow: 1px 2px 5px rgb(68, 68, 68);
+	margin-left: 10px;
+	float:left;
+}

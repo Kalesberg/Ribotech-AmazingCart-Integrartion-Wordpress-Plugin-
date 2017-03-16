@@ -1,0 +1,126 @@
+#serverinfo {
+    border-bottom: 1px solid rgb(255, 255, 255);
+    border-radius: 4px 4px 0px 0px;
+    background: none repeat scroll 0% 0% rgb(136, 136, 136);
+    padding: 15px;
+    text-shadow: 0px 1px 0px rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+	width: 1172px;
+	margin: auto;
+}
+
+#topmenucontainer {
+    border-top: 1px solid rgb(170, 170, 170);
+    border-left: 1px solid rgb(170, 170, 170);
+    border-right: 1px solid rgb(170, 170, 170);
+    background: url("../themes/tab_bg.png") repeat-x scroll 0% 0% transparent;
+    height: 32px;
+	width: 1200px;
+	margin: auto;
+}
+
+ul#topmenu,
+ul#topmenu2,
+ul.tabs {
+    font-weight: bold;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+#topmenu {
+    margin-top: 0.5em;
+    padding: 0.1em 0.3em;
+}
+
+ul#topmenu > li {
+    border-right: 1px solid rgb(255, 255, 255);
+    border-left: 1px solid rgb(204, 204, 204);
+}
+
+ul#topmenu li,
+ul#topmenu2 li {
+    float: left;
+    margin: 0px;
+    vertical-align: middle;
+}
+
+ul#topmenu a,
+ul#topmenu span {
+    padding: 8px;
+    display: block;
+    margin: 0px;
+    white-space: nowrap;
+}
+
+#topmenu a {
+    text-shadow: 0px 1px 0px rgb(255, 255, 255);
+}
+
+a, a:link,
+a:visited,
+a:active {
+    text-decoration: none;
+    color: rgb(35, 90, 129);
+    cursor: pointer;
+    outline: medium none;
+}
+
+ul#topmenu a.tab:hover,
+ul#topmenu .tabactive {
+    
+}
+
+ul#topmenu > li > a:hover,
+ul#topmenu > li > .tabactive {
+    text-decoration: none;
+    background-color: F5F5F5;
+}
+
+#topmenu img,
+#topmenu2 img {
+    vertical-align: -3px;
+}
+
+.tabactive {
+    background: none repeat scroll 0% 0% rgb(255, 255, 255) !important;
+}
+
+ul#topmenu > li.active {
+    border-right: 0px none;
+}
+
+ul#topmenu .submenu {
+    display: none;
+    position: relative;
+}
+
+ul#topmenu .shown {
+    display: inline-block;
+}
+
+ul#topmenu ul li {
+    width: 100%;
+}
+
+ul#topmenu ul {
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    right: 0px;
+    list-style-type: none;
+    display:none;
+    border: 1px solid rgb(221, 221, 221);
+    box-shadow: 1px 1px 3px rgb(0, 0, 0);
+}
+
+ul#topmenu li:hover {
+    background: url("../themes/tab_hover_bg.png") repeat-x 50% 0%!important;
+}
+
+ul#topmenu li:hover ul,
+ul#topmenu .submenuhover ul {
+    display: block;
+    font-weight: 3em;
+    background: #fff;
+}
